@@ -1,0 +1,20 @@
+{
+  "name": "fastify-bullmq",
+  "version": "1.0.0",
+  "description": "Fastify plugin for bullmq",
+  "main": "index.js",
+  "repository": "https://github.com/prakay/fastify-bullmq.git",
+  "author": "sergei.fidler <fidler.sergei@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bullmq": "^1.5.0",
+    "fastify": "^2.11.0",
+    "ioredis": "^4.14.1",
+    "prettier": "^1.19.1",
+    "tslib": "^1.10.0"
+  },
+  "dependencies": {
+    "fast-glob": "^3.1.1",
+    "fastify-plugin": "^1.6.0"
+  }
+}
