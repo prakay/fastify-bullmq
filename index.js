@@ -17,7 +17,7 @@ function createHundler(fastify, opts) {
 function fastifyBullmq(fastify, opts, next) {
   const files = fg.sync(opts.path);
   const connection = opts.connection;
-  const isWorker = opts.worker;
+  const isWorker = !!opts.worker;
 
   const queues = {};
   const workers = {};

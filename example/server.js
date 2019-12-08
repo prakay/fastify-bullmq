@@ -10,7 +10,6 @@ const connection = new Redis();
 fastify.register(fastifyBullmq, {
   path: "./jobs/**.js",
   connection,
-  worker: true
 });
 
 fastify.get("/", function(req, reply) {
